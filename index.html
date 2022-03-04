@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta title="cubo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Move the cube</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Move this cube</h1>
+
+    <div
+      id="cubo"
+      style="
+        margin: auto;
+        text-align: center;
+        margin-top: 60px;
+        width: 50px;
+        height: 50px;
+        background: red;
+      "
+    ></div>
+
+    <br />
+    <div
+      class="fourbuttons"
+      style="
+        position: absolute;
+        top: 250px;
+        margin-left: 25%;
+        width: 50%;
+        height: 50px;
+      "
+    >
+      <button onclick="moveL()">Left</button>
+      <button onClick="moveR()">Right</button>
+      <button onClick="moveU()">Up</button>
+      <button onClick="moveD()">Down</button>
+    </div>
+  </body>
+  <script src="222.js"></script>
+</html>
